@@ -1,62 +1,102 @@
-<a name="readme-top"></a>
+# SD-3101 Ruby Resorts Front end
 
-<div align="center">
-  <img src="readme-res/app_logo.jpeg" alt="logo" width="140"  height="auto" />
-  <br/>
+![alt text](app_logo.jpeg)
 
-  <h3><b>Ruby Resorts Front End</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage Instructions](#usage-instructions)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
+- [Chagelog](#changelog)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-# 📗 Table of Contents
+---
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Ruby Resorts FE ](#-ruby-resorts-fe-)
-    - [Project's back-end](#projects-back-end)
-  - [Team members](#team-members)
-  - [Application's admin credentials for evaluation](#applications-admin-credentials-for-evaluation)
-    - [API Documentation](#api-documentation)
-    - [API Design](#api-design)
-    - [Project ERD diagram](#project-erd-diagram)
-  - [Kanban Boards ](#kanban-boards-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+## Introduction
+Provide a brief introduction to the project. Explain the purpose, scope, and the problem it solves in a few sentences.
 
-<!-- PROJECT DESCRIPTION -->
+## Project Overview
+Describe the project in detail. Include:
+- The project's background or context.
+- Its target audience or users.
+- Any real-world applications or potential impact.
 
-# 📖 Ruby Resorts FE <a name="about-project"></a>
+## Objectives
+State the main objectives of the capstone project, such as:
+- Develop a solution for [problem].
+- Implement features to [goal].
+- Test and validate [key aspect].
 
+## Features
+List the main features of the project:
+- Feature 1: Brief description.
+- Feature 2: Brief description.
+- Feature 3: Brief description.
 
-**Ruby Resorts Front End** is the Front End project for Ruby Resorts Final Capstone Project. The front end is developed using React and Redux Toolkit. We used RTK queries to handle GET, POST, and DELETE queries to and from the Ruby Resorts backend API. We used JWT tokens to authorize users in the front end. A JWT token will be generated every time a user logs in and saved in the Redux store and the token is persisted in local storage. A regular user can signup, then log in with a username and password. The user can see a list of Suites on the main page, can see details of each suite, will be able to reserve a suite, and can access their past reservations. An admin user will be able to create a new suite and delete an existing suite.
+## Technologies Used
+Mention the tools, frameworks, and technologies used in the project:
+- Programming Languages: [e.g., Python, JavaScript, etc.]
+- Frameworks/Libraries: [e.g., React, Flask, etc.]
+- Databases: [e.g., MySQL, MongoDB, etc.]
+- Other Tools: [e.g., Git, Docker, etc.]
 
+## Setup and Installation
+Step-by-step instructions for setting up the project locally.
 
-### Project's back-end
-The back end part of the project can be found in this repo. [Ruby Resorts Backend](https://github.com/anthonymr/ruby-resorts-backend)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
+   ```
+2. **Install dependencies:**
+  - If using `npm`:
+   ```bash
+   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
+   ```
+   - If using `pip` (for Python projects):
+   ```bash
+   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
+   ```
+3. **Configure environment variables (if any)**: Provide instructions for setting up .env files or any other required configurations.
+   ```bash
+   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
+   ```
+4. **Run the project:**
+   - For web projects:
+   ```bash
+   npm start
+   ```
+   - IFor backend services:
+   ```bash
+   python app.py
+   ```
 
-## Team members
-We are a team of four members for this project.
-- Anthony Martin
-- Ghulam Subbhani
-- Raphael Okolo
-- Ram Kumar Karuppusamy
-  
+**Note:** If your project has external depencies like XAMPP, MySQL, special SDK, or other environemnt setup, create another section for it.
+
+## Usage Instructions
+Provide detailed instructions on how to use the project after setup:
+- How to access the application.
+
+    - Navigate to the project directory:
+    ```bash 
+    cd path_to_project
+    ```
+    -  Start the server (example using Node.js or similar)
+    ``` bash 
+    npm run start
+    ```
+
+- Example commands or API calls (if applicable).
+- Databases: [e.g., MySQL, MongoDB, etc.]
+
 ## Application's admin credentials for evaluation
 
 Please use the following credentials for evaluation
@@ -64,202 +104,79 @@ Please use the following credentials for evaluation
   username : admin
   <br />
   password : admin123
+  
+- Screenshots or GIFs showcasing key functionalities (optional).
 
-### API Documentation
+![alt text](<Screenshot 2024-09-04 140418.png>)
 
-Here you can find the [Project API documentation](https://ruby-resorts-backend.onrender.com/api-docs/index.html)
+![alt text](image-1.png)
 
-### API Design
+![alt text](image-2.png)
 
-Here you can find the project's initial [API design](readme-res/API.md)
+![alt text](image-3.png)
 
-### Project ERD diagram
+![alt text](image-4.png)
 
-<img src="readme-res/erd_diagram_ruby_resort.png" alt="ERD diagram" width="600"  height="auto" />
-<br/>
+![alt text](image-5.png)
 
-## Kanban Boards <a name="kanban-boards"></a>
-
-Please find the Kanban boards in below links:
-
-[Front End](https://github.com/anthonymr/ruby-resorts-frontend/projects/1)
-<br/>
-[Back End](https://github.com/anthonymr/ruby-resorts-backend/projects/1)
-
-<img src="readme-res/kanbanfrontend.png" alt="ERD diagram" width="600"  height="auto" />
-<br/>
-<img src="readme-res/kanbanbackend.png" alt="ERD diagram" width="600"  height="auto" />
-<br/>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://create-react-app.dev/">React Create App</a></li>
-    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
-    <li><a href="https://mui.com/">MUI React UI</a></li>
-    <li><a href="https://redux-toolkit.js.org/rtk-query/overview">RTK Query</a></li>
-    <li><a href="https://testing-library.com/docs/react-testing-library/intro/">React Testing Library</a></li>
-  </ul>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **JWT authorization**
-- **Reservation System**
-- **Responsive design**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Here you can access the project's [Front End Live Demo](https://ruby-resorts-front-end.onrender.com/)
-- Here you can access the project's [Back End Live Demo](https://ruby-resorts-backend.onrender.com/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need the following installed in your local machine:
-
-<ul>
-<li>Node.js</li>
-<li>git</li>
-<li>Github Account</li>
-</ul>
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  cd <desired-folder>
-  git clone https://github.com/anthonymr/ruby-resorts-frontend
-  cd ruby-resorts-frontend
-```
-
-### Install
-
-Install the project dependencies by running:
-
-```sh
-  npm install
-```
-
-The above command installs necessary npm modules used in the project
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm run start
-```
-
-The above command starts the devserver and renders the page in your browser.
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-npm run test
-```
-
-We have added jest test cases for the components in the project. Mock store, mock server and test data can be found in `src/test-utils` folder. We have used Mock Service Worker to handle API requests in tests. 
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-
-npm run build
+## Project Structure
+Explain the structure of the project directory. Example:
+```bash
+.
+ruby-resorts-frontend/
+├─ .github/
+├─ build/
+├─ node_modules/
+├─ public/
+├─ readme-res/
+├─ resorts/
+├─ src/
+├─ README.md
 
 ```
 
-The above command creates build files that can be deployed using Github pages or any other hosting service.
+## Contributors
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+List all the team members involved in the project. Include their roles and responsibilities:
 
-<!-- AUTHORS -->
+- **Shemara Lei F. Bugayong**: Lead Developer, Backend Developer
+- **Colyn Buenconsejo**: Frontend Developer, UI/UX Designer
+- **Gerald Villaran**: Project Manager, Tester
 
-## 👥 Authors <a name="authors"></a>
+## Project Timeline
 
+Outline the project timeline, including milestones or deliverables. Example:
 
-👤 **Ram Kumar Karuppusamy**
+- **Week 1-2**: Research and project planning.
+- **Week 3-5**: Design and setup.
+- **Week 6-10**: Implementation.
+- **Week 11-12**: Testing and debugging.
+- **Week 13-14**: Final presentation and documentation.
 
-- GitHub: [@ram1117](https://github.com/ram1117)
-- Twitter: [@ram_karuppusamy](https://twitter.com/ram_karuppusamy)
-- LinkedIn: [Ram Kumar Karuppusamy](https://www.linkedin.com/in/ram-kumar-karuppusamy/)
+## Changelog
 
-👤 **Malik Ghulam Subbhani**
+### [Version 1.0.0] - 2024-09-07
+- Initial release of the project.
+- Added basic functionality for [Feature 1], [Feature 2], and [Feature 3].
 
-- GitHub: [@gsmalik030](https://github.com/gsmalik030)
-- Twitter: [@gsmalik030](https://twitter.com/gsmalik030)
-- LinkedIn: [Ghulam (Malik) Subbhani](https://www.linkedin.com/in/gsmalik030/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add full fledged reservation system**
-- [ ] **Add payment gateways**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Please log any bugs or issues in [issues page](https://github.com/anthonymr/ruby-resorts-frontend/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project, please give a Star to the [github repo](https://github.com/anthonymr/ruby-resorts-frontend)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-We would like to thank [Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) for the design.
-
-[The article by Chinwike Maduabuchi](https://blog.logrocket.com/handling-user-authentication-redux-toolkit/) was really helpful in implementing the RTK queries in this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### [Version 1.1.0] - 2024-09-14
+- Improved user interface for [Feature 1].
+- Fixed bugs related to [Feature 2].
+- Updated project documentation with setup instructions.
+### [Version 1.2.0] - 2024-09-21
+- Added new functionality for [Feature 4].
+- Refactored codebase for better performance.
+- Added unit tests for [Feature 3] and [Feature 4].
 
 
-<!-- LICENSE -->
+## Acknowledgments
 
-## 📝 License <a name="license"></a>
+Acknowledge any resources, mentors, or external tools that helped in completing the project.
 
-This project is [MIT](./LICENSE) licensed.
+This project was built from [Original Project Name](https://github.com/anthonymr/ruby-resorts-frontend.git), created by anthonymr Anthony Martin. You can view the original repository [here](https://github.com/anthonymr/ruby-resorts-frontend.git).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## License
+
+Specify the project's license. For starters, adapt the license of the original repository.
+
+
