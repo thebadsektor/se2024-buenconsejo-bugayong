@@ -22,80 +22,89 @@
 ---
 
 ## Introduction
-Provide a brief introduction to the project. Explain the purpose, scope, and the problem it solves in a few sentences.
+Introducing the Resort Reservation Management System (RRMS), which is intended to improve visitor experiences at our resort by expediting the booking process. Managing reservations, room availability, and guest preferences effectively and in real-time is the main goal of RRMS, guaranteeing each visitor a smooth and customized stay. The problems of overbooking, administrative inefficiencies, and disgruntled guests are addressed by RRMS, which optimizes resort operations and raises overall guest happiness by automating booking tasks, reducing human error, and offering immediate access to reservation details.
 
 ## Project Overview
-Describe the project in detail. Include:
-- The project's background or context.
-- Its target audience or users.
-- Any real-world applications or potential impact.
+Bookings, room allocations, and guest interactions are all automated by the Resort Reservation Management System (RRMS), which modernizes reservation procedures. RRMS, which is intended for use by resort management, front desk employees, and visitors, boosts operational effectiveness, lowers mistake rates, and raises guest happiness with real-time updates and customized services. In practice, it means more efficient operations, improved revenue control, and a smoother visitor experience, all of which increase resort profitability and performance.
 
 ## Objectives
 State the main objectives of the capstone project, such as:
-- Develop a solution for [problem].
-- Implement features to [goal].
-- Test and validate [key aspect].
+1. Develop a Solution for Reservation Management Challenges                                    
+2. Implement Key Features to Achieve Operational Efficiency
+3. Test and Validate System Performance
 
 ## Features
 List the main features of the project:
-- Feature 1: Brief description.
-- Feature 2: Brief description.
-- Feature 3: Brief description.
+- Suite: The resort offers a range of suites that guests can choose and select from. With the comprehensive information provided about each suite, users can choose the one that most interests them.
+- Book now:  After choosing a suite, a user can reserve it by using the "Book Now" option. Customers will have the option to choose the suite of their dreams and provide the precise dates of their stay.
+- My Bookings: Users can use this tool to view the specifics of their existing reservations, such as the suites they've booked and the dates of their stays.
+- Add Suite: Users had an option to make it simple to reserve extra suites. They can easily make reservations for several suites at once.
+- Delete Suite: The system permits cancellations through the "Delete Suite" option in the event that a user has to do so or changes their mind.
+- Login/out: Users can check, edit, or cancel their reservations by logging in and accessing their account. By logging out, users may protect the confidentiality of their reservation information and avoid unwanted access to their account details.
 
 ## Technologies Used
 Mention the tools, frameworks, and technologies used in the project:
-- Programming Languages: [e.g., Python, JavaScript, etc.]
-- Frameworks/Libraries: [e.g., React, Flask, etc.]
-- Databases: [e.g., MySQL, MongoDB, etc.]
-- Other Tools: [e.g., Git, Docker, etc.]
+- Programming Language: JavaScript
+- Frameworks/Libraries: React.js, Redux Toolkit, RTK Query, MUI React UI, React Testing Library
+- Databases: None specified for frontend
+- Additional Tools: Create React App, Git (assumed for version control)
 
 ## Setup and Installation
 Step-by-step instructions for setting up the project locally.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
-   ```
-2. **Install dependencies:**
-  - If using `npm`:
-   ```bash
-   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
-   ```
-   - If using `pip` (for Python projects):
-   ```bash
-   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
-   ```
-3. **Configure environment variables (if any)**: Provide instructions for setting up .env files or any other required configurations.
-   ```bash
-   git clone https://github.com/anthonymr/ruby-resorts-frontend.git
-   ```
-4. **Run the project:**
-   - For web projects:
-   ```bash
-   npm start
-   ```
-   - IFor backend services:
-   ```bash
-   python app.py
-   ```
+Clone this repository to your desired folder:
 
+```sh
+  cd <desired-folder>
+  git clone https://github.com/anthonymr/ruby-resorts-frontend
+  cd ruby-resorts-frontend
+```
+
+### Install
+
+Install the project dependencies by running:
+
+```sh
+  npm install
+```
+
+The above command installs necessary npm modules used in the project
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm run start
+```
+
+The above command starts the devserver and renders the page in your browser.
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+npm run test
+```
+
+We have added jest test cases for the components in the project. Mock store, mock server and test data can be found in `src/test-utils` folder. We have used Mock Service Worker to handle API requests in tests. 
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+
+npm run build
+
+```
+The above command creates build files that can be deployed using Github pages or any other hosting service.
 **Note:** If your project has external depencies like XAMPP, MySQL, special SDK, or other environemnt setup, create another section for it.
 
 ## Usage Instructions
 Provide detailed instructions on how to use the project after setup:
 - How to access the application.
-
-    - Navigate to the project directory:
-    ```bash 
-    cd path_to_project
-    ```
-    -  Start the server (example using Node.js or similar)
-    ``` bash 
-    npm run start
-    ```
-
-- Example commands or API calls (if applicable).
-- Databases: [e.g., MySQL, MongoDB, etc.]
 
 ## Application's admin credentials for evaluation
 
@@ -119,6 +128,18 @@ Please use the following credentials for evaluation
 
 ![alt text](image-5.png)
 
+- Example commands or API calls (if applicable).
+  Here you can find the [Project API documentation](https://ruby-resorts-backend.onrender.com/api-docs/index.html)
+
+### API Design
+
+Here you can find the project's initial [API design](readme-res/API.md)
+
+### Project ERD diagram
+
+<img src="readme-res/erd_diagram_ruby_resort.png" alt="ERD diagram" width="600"  height="auto" />
+<br/>
+  
 ## Project Structure
 Explain the structure of the project directory. Example:
 ```bash
