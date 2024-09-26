@@ -145,9 +145,6 @@ Explain the structure of the project directory. Example:
 ```bash
 .
 ruby-resorts-frontend/
-├─ .github/
-├─ build/
-├─ node_modules/
 ├─ public/
 ├─ readme-res/
 ├─ resorts/
