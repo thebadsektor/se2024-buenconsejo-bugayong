@@ -146,10 +146,34 @@ Explain the structure of the project directory. Example:
 .
 ruby-resorts-frontend/
 ├─ public/
+│  ├─ images/
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ manifest.json
+│  ├─ robots.txt
+│  ├─ 
 ├─ readme-res/
-├─ resorts/
+│  ├─ API.md
+│  ├─ app_logo.jpeg
+│  ├─ app_logo.svg
+│  ├─ erd_diagram_ruby_resort.png
+│  ├─ kanbanbackend.png
+│  ├─ kanbanfrontend.png
 ├─ src/
+│  ├─ __tests__/
+│  ├─ components/
+│  ├─ redux/
+│  ├─ services/
+│  ├─ styles/
+│  ├─ testutils/
+│  ├─ utilities/
+│  ├─ .babelrc
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ index.css
+│  ├─ index.js
 ├─ README.md
+
 
 ```
 
