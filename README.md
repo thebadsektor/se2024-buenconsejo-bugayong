@@ -202,6 +202,10 @@ Outline the project timeline, including milestones or deliverables. Example:
   8. Customizable Stay Reminders
   9. Room Preference Notes
   10. Cancellation and Modification Options
+ 
+   - Feature: Dockerize Project
+   - Target Completion: 27/10/2024
+    
 - **Week 3-5**: Design and setup.
 - **Week 6-10**: Implementation.
 - **Week 11-12**: Testing and debugging.
