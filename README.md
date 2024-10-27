@@ -56,8 +56,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd <desired-folder>
-  git clone https://github.com/anthonymr/ruby-resorts-frontend
-  cd ruby-resorts-frontend
+  git clone https://github.com/thebadsektor/se2024-buenconsejo-bugayong.git
 ```
 
 ### Install
