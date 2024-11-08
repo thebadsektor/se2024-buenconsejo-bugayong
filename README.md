@@ -143,7 +143,6 @@ Here you can find the project's initial [API design](readme-res/API.md)
 Explain the structure of the project directory. Example:
 ```bash
 .
-ruby-resorts-frontend/
 ├─ public/
 │  ├─ images/
 │  ├─ favicon.ico
@@ -171,7 +170,10 @@ ruby-resorts-frontend/
 │  ├─ App.js
 │  ├─ index.css
 │  ├─ index.js
+├─ Dockerfile
+├─ .dockerignore
 ├─ README.md
+
 
 
 ```
